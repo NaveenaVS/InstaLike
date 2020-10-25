@@ -1,6 +1,6 @@
 # Project- *InstaLike*
 
-**App that resembles instagram but I use my own custom back-end API ! 
+** App that resembles instagram but I use my own custom back-end API ! 
 
 ## User Stories-Phase 1:
 ### Implemented the below user stories as a part 1 version of the InstaLike app :)
