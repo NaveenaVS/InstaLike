@@ -13,4 +13,4 @@
 ## Video Walkthrough of my amazing app 
 ### Here's a walkthrough of implemented phase 1 user stories:
 
-<img src='https://media.giphy.com/media/0oPpAFnaA9bSZrtNZD/giphy.gif' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/NzuYcsJTQLvTf5bPLk/giphy.gif' width='' alt='Video Walkthrough' />
