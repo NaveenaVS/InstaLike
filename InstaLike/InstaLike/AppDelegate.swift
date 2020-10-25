@@ -8,6 +8,9 @@
 
 import UIKit
 
+//importing the installed Parse pod:
+import Parse
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,6 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // below adding info that lets me connect my Parse backend to my InstaLike app:
+        let parseConfig = ParseClientConfiguration {
+                $0.applicationId = "NHolWyZagqiQKsxXwn2HHPDs5qTYSuLgkM2Cy9HY" // my app id from Parse
+                $0.clientKey = "P5ArCYJ5uNYHu5McojaExC8fFxL621r09SjKzwFm" // <- my client key from Parse
+                $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initialize(with: parseConfig)
+        // --- end of Parse connection
+        
+        
         return true
     }
 

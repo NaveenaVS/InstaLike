@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Bolts/Tasks (1.9.1)
+  - OAuthSwift (1.1.2)
+  - OAuthSwiftAlamofire (0.2.0):
+    - Alamofire
+    - OAuthSwift
+  - Parse (1.19.1):
+    - Parse/Core (= 1.19.1)
+  - Parse/Core (1.19.1):
+    - Bolts/Tasks (= 1.9.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - OAuthSwift (~> 1.1.0)
+  - OAuthSwiftAlamofire
+  - Parse
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Bolts
+    - OAuthSwift
+    - OAuthSwiftAlamofire
+    - Parse
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  OAuthSwift: 5aa5659984d3ca3206ba636a9e7a9c6626b2e8bd
+  OAuthSwiftAlamofire: e51f11ff579dd4293bfe2a1a24c658caad4dac35
+  Parse: e40fdb9c7d665823b7fe9865949cac9a53eb2ce7
+
+PODFILE CHECKSUM: f97a4e5a77fe25a8571903e7a72c897ecc7bb9b2
+
+COCOAPODS: 1.9.3

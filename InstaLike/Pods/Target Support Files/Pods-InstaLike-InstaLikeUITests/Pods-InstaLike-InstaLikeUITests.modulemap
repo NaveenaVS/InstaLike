@@ -1,0 +1,6 @@
+framework module Pods_InstaLike_InstaLikeUITests {
+  umbrella header "Pods-InstaLike-InstaLikeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
