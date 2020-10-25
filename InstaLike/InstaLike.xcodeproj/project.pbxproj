@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		0118431525453CC60058A778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0118431325453CC60058A778 /* LaunchScreen.storyboard */; };
 		0118432025453CC70058A778 /* InstaLikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0118431F25453CC70058A778 /* InstaLikeTests.swift */; };
 		0118432B25453CC70058A778 /* InstaLikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0118432A25453CC70058A778 /* InstaLikeUITests.swift */; };
+		0118433925455BBD0058A778 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0118433825455BBD0058A778 /* LoginViewController.swift */; };
+		0118433B25455BCF0058A778 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0118433A25455BCF0058A778 /* FeedViewController.swift */; };
+		0118433D2545DB280058A778 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0118433C2545DB280058A778 /* CameraViewController.swift */; };
 		2D9175805B2BF7966440D05B /* Pods_InstaLike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAC4C50D7F3C7E51590B879 /* Pods_InstaLike.framework */; };
 		8CC76BCE59B26BB30FF276BD /* Pods_InstaLike_InstaLikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A791BCB315FA269B0EE00A /* Pods_InstaLike_InstaLikeUITests.framework */; };
 		FCDE692AEF5C6E34919585DA /* Pods_InstaLikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08E21244968467DAD581F1C /* Pods_InstaLikeTests.framework */; };
@@ -52,6 +55,9 @@
 		0118432625453CC70058A778 /* InstaLikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaLikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0118432A25453CC70058A778 /* InstaLikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaLikeUITests.swift; sourceTree = "<group>"; };
 		0118432C25453CC70058A778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0118433825455BBD0058A778 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0118433A25455BCF0058A778 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		0118433C2545DB280058A778 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		11EB7DADF5E9976517DFBDCC /* Pods-InstaLike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaLike.release.xcconfig"; path = "Target Support Files/Pods-InstaLike/Pods-InstaLike.release.xcconfig"; sourceTree = "<group>"; };
 		1A72BCB7B007EC04E619E7C9 /* Pods-InstaLike-InstaLikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaLike-InstaLikeUITests.debug.xcconfig"; path = "Target Support Files/Pods-InstaLike-InstaLikeUITests/Pods-InstaLike-InstaLikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		333BBA196C3ECE74D562C581 /* Pods-InstaLike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaLike.debug.xcconfig"; path = "Target Support Files/Pods-InstaLike/Pods-InstaLike.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +129,9 @@
 				0118431125453CC60058A778 /* Assets.xcassets */,
 				0118431325453CC60058A778 /* LaunchScreen.storyboard */,
 				0118431625453CC60058A778 /* Info.plist */,
+				0118433825455BBD0058A778 /* LoginViewController.swift */,
+				0118433A25455BCF0058A778 /* FeedViewController.swift */,
+				0118433C2545DB280058A778 /* CameraViewController.swift */,
 			);
 			path = InstaLike;
 			sourceTree = "<group>";
@@ -165,7 +174,6 @@
 				9BA477F1D453B9BA996A5B4F /* Pods-InstaLikeTests.debug.xcconfig */,
 				8EE5E4E6C5691F328B0543C2 /* Pods-InstaLikeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,9 +416,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0118433925455BBD0058A778 /* LoginViewController.swift in Sources */,
 				0118430D25453CC40058A778 /* ViewController.swift in Sources */,
+				0118433B25455BCF0058A778 /* FeedViewController.swift in Sources */,
 				0118430925453CC40058A778 /* AppDelegate.swift in Sources */,
 				0118430B25453CC40058A778 /* SceneDelegate.swift in Sources */,
+				0118433D2545DB280058A778 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

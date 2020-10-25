@@ -7,10 +7,7 @@ target 'InstaLike' do
 
   # Pods for InstaLike
     pod 'Alamofire', '~> 4.4'
-     # Add additional dependencies
-     pod 'OAuthSwift', '~> 1.1.0'
-     pod 'OAuthSwiftAlamofire'
-     
+    pod 'AlamofireImage'
      # Add Parse pods and install
      pod 'Parse'
     
