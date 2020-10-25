@@ -86,6 +86,60 @@
                     <view key="view" contentMode="scaleToFill" id="0Zr-Yx-92A">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KpS-qN-h41">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="604" id="xkD-yD-Per" customClass="PostCell" customModule="InstaLike" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="604"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xkD-yD-Per" id="Pc5-ee-WGW">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="604"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HhV-XM-YTm">
+                                                    <rect key="frame" x="8" y="8" width="398" height="559"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="HhV-XM-YTm" secondAttribute="height" multiplier="398:559" id="K0b-i2-5ad"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Navz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbQ-yR-F4Y">
+                                                    <rect key="frame" x="8" y="575" width="38.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="What a view!! &lt;3" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZg-6C-Otl">
+                                                    <rect key="frame" x="54.5" y="575" width="351.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="HhV-XM-YTm" secondAttribute="trailing" constant="8" id="0gO-PG-WWa"/>
+                                                <constraint firstItem="MbQ-yR-F4Y" firstAttribute="leading" secondItem="Pc5-ee-WGW" secondAttribute="leading" constant="8" id="1ui-qb-YK5"/>
+                                                <constraint firstItem="FZg-6C-Otl" firstAttribute="top" secondItem="HhV-XM-YTm" secondAttribute="bottom" constant="8" id="DB4-yP-rkc"/>
+                                                <constraint firstItem="HhV-XM-YTm" firstAttribute="top" secondItem="Pc5-ee-WGW" secondAttribute="top" constant="8" id="Uh8-Yw-Jmp"/>
+                                                <constraint firstItem="FZg-6C-Otl" firstAttribute="leading" secondItem="MbQ-yR-F4Y" secondAttribute="trailing" constant="8" id="XEQ-jg-fXP"/>
+                                                <constraint firstItem="HhV-XM-YTm" firstAttribute="leading" secondItem="Pc5-ee-WGW" secondAttribute="leading" constant="8" id="bKC-LH-0bt"/>
+                                                <constraint firstAttribute="trailing" secondItem="FZg-6C-Otl" secondAttribute="trailing" constant="8" id="brK-Eh-I9G"/>
+                                                <constraint firstItem="MbQ-yR-F4Y" firstAttribute="top" secondItem="HhV-XM-YTm" secondAttribute="bottom" constant="8" id="dDi-Eo-2nf"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="FZg-6C-Otl" secondAttribute="bottom" constant="8" id="i5v-Xm-V33"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="captionLabel" destination="FZg-6C-Otl" id="8Gq-aR-diM"/>
+                                            <outlet property="photoView" destination="HhV-XM-YTm" id="SpB-fH-ejU"/>
+                                            <outlet property="usernameLabel" destination="MbQ-yR-F4Y" id="vPI-jE-Ny5"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="gbX-ct-vVY"/>
                     </view>
@@ -96,10 +150,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="KpS-qN-h41" id="fo0-0k-zLI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ru-Fc-eHC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1354" y="96"/>
+            <point key="canvasLocation" x="1353.6231884057972" y="95.758928571428569"/>
         </scene>
         <!--Camera View Controller-->
         <scene sceneID="6Ye-gk-l1E">
@@ -127,16 +184,16 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2Z-0A-glY">
                                 <rect key="frame" x="20" y="456" width="374" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Submit">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="onSubmitButton:" destination="eaZ-cR-EXz" eventType="touchUpInside" id="n8Z-vU-9B8"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="8wB-FI-Ip6"/>
                     </view>
                     <connections>
@@ -151,7 +208,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2075.36231884058" y="99.776785714285708"/>
+            <point key="canvasLocation" x="2097" y="96"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WZl-FG-F7g">

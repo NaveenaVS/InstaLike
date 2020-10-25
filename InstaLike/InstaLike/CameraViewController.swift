@@ -45,7 +45,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
             if success{
                 //on save we wanna dismiss this view
                 self.dismiss(animated: true, completion: nil)
-                print("Saved :)")
+                print("Saved :)") //if success displayed in the console for meee :)
             }else{
                 print("Error :( ")
             }
