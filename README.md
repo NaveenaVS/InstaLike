@@ -11,6 +11,15 @@ App that resembles instagram but I use my own custom back-end API !
 - [x] User can view the last 20 posts
 
 ## Video Walkthrough of my amazing app 
-### Here's a walkthrough of implemented phase 1 user stories:
-Walkthrough of user sign-in:
+## Here's a walkthrough of implemented phase 1 user stories:
+### Walkthrough of user sign-in:
+
 <img src='https://media.giphy.com/media/P4k1AjgeWKcGmidjR3/giphy.gif' width='' alt='Video Walkthrough' />
+
+### Walkthrough of image upload/posting:
+
+<img src='https://media.giphy.com/media/WFKDQkyu20JO7jpU4e/giphy.gif' width='' alt='Video Walkthrough' />
+
+### Walkthrough of new user sign-up:
+
+<img src='https://media.giphy.com/media/giMvx1pykCMOg8GEnt/giphy.gif' width='' alt='Video Walkthrough' />
