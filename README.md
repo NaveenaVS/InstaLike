@@ -12,5 +12,5 @@ App that resembles instagram but I use my own custom back-end API !
 
 ## Video Walkthrough of my amazing app 
 ### Here's a walkthrough of implemented phase 1 user stories:
-
-<img src='https://media.giphy.com/media/NzuYcsJTQLvTf5bPLk/giphy.gif' width='' alt='Video Walkthrough' />
+Walkthrough of user sign-in:
+<img src='https://media.giphy.com/media/P4k1AjgeWKcGmidjR3/giphy.gif' width='' alt='Video Walkthrough' />
