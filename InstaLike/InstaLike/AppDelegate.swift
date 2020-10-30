@@ -28,6 +28,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.initialize(with: parseConfig)
         // --- end of Parse connection
         
+//        //new phase2: moved to scenedelgate file!
+//        if PFUser.current() != nil {
+//            //if this is entered means that I am already logged in so need to switch the other view controller
+//            let main = UIStoryboard(name: "Main", bundle: nil) //how main? cus its looking for Main.stroyboard which is just the file name.
+//            //create a view controller:
+//            let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+//
+//            window?.rootViewController = feedNavigationController
+//        }
         
         return true
     }
