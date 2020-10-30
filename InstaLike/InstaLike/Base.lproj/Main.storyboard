@@ -10,7 +10,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="InstaLike" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="InstaLike" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -144,6 +144,11 @@
                         <viewLayoutGuide key="safeArea" id="gbX-ct-vVY"/>
                     </view>
                     <navigationItem key="navigationItem" id="0oG-4P-Hrj">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="Gyz-fH-x7q">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="vTq-yC-VUt" id="tdj-sa-k4W"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="lOb-cL-bWI">
                             <connections>
                                 <segue destination="eaZ-cR-EXz" kind="presentation" id="17b-Uc-Eah"/>
