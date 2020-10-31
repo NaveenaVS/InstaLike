@@ -19,6 +19,16 @@ The following **required** functionality is completed:
 - [x] User can view the last 20 posts
 
 ## Video Walkthrough of my amazing app 
+## Here's a walkthrough of implemented phase 2 user stories:
+
+### Walkthrough of user stays logged in across restarts:
+<img src='https://media.giphy.com/media/qZDK4PMm502jsU4x3y/giphy.gif' width='' alt='Video Walkthrough' />
+### Walkthrough of user can view comments on posts and user can add a new comment:
+<img src='https://media.giphy.com/media/sn3dS27lgTwVKRcv6h/giphy.gif' width='' alt='Video Walkthrough' />
+### Walkthrough of user log out:
+<img src='https://media.giphy.com/media/yQvjccULym7A4sx37N/giphy.gif' width='' alt='Video Walkthrough' />
+
+
 ## Here's a walkthrough of implemented phase 1 user stories:
 ### Walkthrough of user sign-in:
 
