@@ -10,7 +10,9 @@ target 'InstaLike' do
     pod 'AlamofireImage'
      # Add Parse pods and install
      pod 'Parse'
+     pod 'MessageInputBar'
     
+
   target 'InstaLikeTests' do
     inherit! :search_paths
     # Pods for testing

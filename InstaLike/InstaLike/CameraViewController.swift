@@ -79,7 +79,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         //resizing the image
         let size = CGSize(width: 300, height: 300)
         //using the alomofireimage extension to scale ot down:
-        let scaledImage = image.af_imageScaled(to: size)
+        let scaledImage = image.af_imageAspectScaled(toFill: size)
         //put that scaled image:
         imageView.image = scaledImage
         
