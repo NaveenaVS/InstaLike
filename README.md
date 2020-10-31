@@ -2,6 +2,14 @@
 
 App that resembles instagram but I use my own custom back-end API ! 
 
+## User Stories-Phase 2:
+### Implemented the below user stories as a part 2 version of the InstaLike app :)
+The following **required** functionality is completed:
+- [x] User stays logged in across restarts. 
+- [x] User can log out. 
+- [x] User can view comments on a post. 
+- [x] User can add a new comment.
+
 ## User Stories-Phase 1:
 ### Implemented the below user stories as a part 1 version of the InstaLike app :)
 - [x] User sees app icon in home screen and styled launch screen.
